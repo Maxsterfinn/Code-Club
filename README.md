@@ -1,3 +1,1 @@
-Hello World
-
-Test from my PC -Matt
+Welcome to Goodyear Library's Code Club!
