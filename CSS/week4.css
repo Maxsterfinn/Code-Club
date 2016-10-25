@@ -1,0 +1,26 @@
+.example1{
+    color:blue;
+}
+.example2{
+    color:red;
+}
+.centered{
+    text-align: center;
+}
+.size{
+    font-size: 50px;
+}
+.sans-serif{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.padding{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+body{
+    background-color: beige;
+}
