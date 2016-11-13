@@ -2,20 +2,23 @@
 <html>
 <head>
     <title> Goodyear Code Club </title>
+    <script src="../JS/week7.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="../CSS/week5and6.css">
-    <header> Dolphins </header>
+    <link rel="stylesheet" href="../CSS/week7-main.css">
+    <div class="header">
+        <div class="dolphin-logo">
+            <a href="week7-main.html"><img src="http://animalearning.com/wp-content/uploads/2014/09/dolphin-icon.png"></a>
+        </div>
+        <h1>Dolphins</h1>
+    </div>
     
-    <nav>
-        <ul>
-            <h1>Links</h1>
-            <li><a href="#"> Thing 1 </a></li>
-            <li><a href="#"> Thing 2 </a></li>
-            <li><a href="#"> Thing 3 </a></li>
-            <li><a href="#"> Thing 4 </a></li>
-        </ul>
-    </nav>
+    <div class="navcontainer">
+        <a id="link1" href="week7.html"> Javascript? </a>
+        <a id="link2" href="#"> Thing 2 </a>
+        <a id="link3" href="#"> Thing 3 </a>
+        <a id="link4" href="#"> Thing 4 </a>
+    </div>
     
     <article>
         <p> 
@@ -36,10 +39,18 @@
             both air and water, is so well developed that some can survive even if they are blind. Some species are well adapted for diving to great depths. They have a layer of fat, or blubber, under
             the skin to keep warm in the cold water.
         </p>
+        <!--
+        <div class="top"><div class="top-left"></div><div class="top-middle"></div><div class="top-right"></div></div>
+        <div class="middle"><div class="middle-left"></div><div class="middle-middle"></div><div class="middle-right"></div></div>
+        <div class="bottom"><div class="bottom-left"></div><div class="bottom-middle"></div><div class="bottom-right"></div></div>
+        <!--
+        <button onclick="moreDolphins()">Dolphin Text</button>
+        <button onclick="tictactoe()">Play a Game?</button>-->
     </article>
+    <!--<button onclick="createTicTacToe()">Play a Game?</button>-->
     
     <footer>
-        Copyright © Goodyear Code Club
+        Copyright © <a id="gitLink" href="https://github.com/goodyearcodeclub/Code-Club">Goodyear Code Club</a>
     </footer>
 </body>
 </html>

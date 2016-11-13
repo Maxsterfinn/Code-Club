@@ -1,0 +1,35 @@
+.top, .middle, .bottom{
+    display: flex;
+}
+.top-left, .top-middle, .top-right, .middle-left, .middle-middle, .middle-right, .bottom-left, .bottom-middle, .bottom-right{
+    width: 50px;
+    padding-top: 50px;
+}
+.top-left{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.top-middle{
+    border-bottom: 1px solid black;
+}
+.top-right{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.middle-left{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.middle-middle{
+    border-bottom: 1px solid black;
+}
+.middle-right{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.bottom-left{
+    border-right: 1px solid black;
+}
+.bottom-right{
+    border-left: 1px solid black;
+}
