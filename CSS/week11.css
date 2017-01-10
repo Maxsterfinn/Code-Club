@@ -1,0 +1,39 @@
+.header {
+    text-align: center;
+    font-size: 40px;
+}
+#var, #func, #html {
+    background-color: #2b6dd8;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 0px 30px 0px;
+}
+.body-container h1 {
+    font-size: 35px;
+}
+#var h1, #func h1, #html h1 {
+    text-align: center;
+}
+#quote {
+    display: inline-block;
+    background-color: #bdcfed;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+#quote #ex1 {
+    color: #c926b3;
+}
+#quote #ex2 {
+    color: #108c25;
+}
+#quote #ex3 {
+    color: #8e8700;
+}
+#quote #ex4 {
+    padding-left: 50pt;
+}
+body {
+    color: #FFF;
+    font-size: 30px;
+    background-color: #2d333d;
+    margin: 0 50px 0 50px;
+}
