@@ -23,7 +23,7 @@ function button1() {
             firstLine.parentNode.insertBefore(picture, description.nextSibling);
             break;
         case 3:
-            description.textContent = 'So this means that we can add modified the HTML document with JavaScript.';
+            description.textContent = 'So this means that we can add modified the HTMLgithub document with JavaScript.';
             firstLine.parentNode.insertBefore(description, description.nextSibling);
     }
 }

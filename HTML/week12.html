@@ -1,0 +1,62 @@
+<!DOC-TYPE html>
+<head>
+    <title> Goodyear Code Club </title>
+    <script src="../JS/week12.js"></script>
+</head>
+<body>
+    <link rel=stylesheet href="../CSS/week12.css">
+    <div class="header"><h1> Javascript Basics </h1></div>
+    <div class="body-container">
+        <div id="dom">
+            <h1> DOM </h1>
+            <p> 
+                DOM stands for "Document Object Model" and it is a structure that allows us to access
+                HTML and XML documents and treat them like objects. This means we can change HTML and
+                XML files through DOM and it includes adding tags, changing the style(CSS), and more things.
+            </p>
+            <p id="quote">
+                <span id="ex1">document</span>.<span id="ex3">getElementsByTagName</span>("<span id="ex2">[tag name]</span>");
+            </p>
+            <p>
+                This is an example of DOM being used in Javascript. In this case, it is being used to
+                get a tag. We can store this as a variable, then we can do other things with this tag
+                like change the CSS or add elements/tags after it.
+            </p>
+            <p id="quote">
+                <span id="ex1">document</span>.<span id="ex3">getElementById</span>("<span id="ex2">[tag id]</span>");<br>
+                <span id="ex1">document</span>.<span id="ex3">getElementsByClassName</span>("<span id="ex2">[tag class]</span>");<br>
+                <span id="ex1">document</span>.<span id="ex3">createElement</span>("<span id="ex2">[tag name]</span>");<br>
+            </p>
+            <p> 
+                These are some basic ways to interact with DOM by getting a certain tag. What do we do
+                when we have this tag?
+            </p>
+            <p id="quote">
+                <span id="ex1">var</span> <span id="ex2">[name]</span> = <span id="ex1">document</span>.<span id="ex3">getElementById</span>("<span id="ex2">[tag id]</span>");
+            </p>
+            <p>
+                Well first let's set it to a variable. Now we can call the variable and try to change it.
+            </p>
+            <p id="quote">
+                <span id="ex2">[name]</span>.<span id="ex2">[attribute]</span> = "<span id="ex2">[attribute value]</span>";<br>
+                <span id="ex2">[name]</span>.<span id="ex3">setAttribute</span> = ("<span id="ex2">[attribute]</span>","<span id="ex2">[attribute value]</span>");<br>
+                <span id="ex2">[name]</span>.<span id="ex3">style</span>.<span id="ex2">[attribute]</span> = "<span id="ex2">[attribute value]</span>";<br>
+                <span id="ex2">[name]</span>.<span id="ex3">innerHTML</span> = "<span id="ex2">[text]</span>";<br>
+                <span id="ex2">[name]</span>.<span id="ex3">textContent</span> = "<span id="ex2">[text]</span>";<br>
+            </p>
+            <p>
+                These lines are examples of how we can change the CSS and the content inside tags with JavaScript.
+            </p>
+            <p id="quote">
+                <span id="ex2">[name]</span>.<span id="ex3">parentNode</span>.<span id="ex3">insertBefore</span>(<span id="ex2">[tag name]</span>, <span id="ex2">[name]</span>);<br>
+            </p>
+            <p>
+                In order to insert a tag before another one, you would use the line above. "name" is the tag that you want to insert before and "tag name" is the tag you want to insert. If you want to insert something after then in the second "name" add a ".nextSibling".
+            </p>
+            <p id="quote">
+                <span id="ex2">[name]</span>.<span id="ex3">parentNode</span>.<span id="ex3">insertBefore</span>(<span id="ex2">[tag name]</span>, <span id="ex2">[name]</span>.<span id="ex3">nextSibling</span>);
+            </p>
+            <!--<button onclick="changeBody()">Test</button>-->
+        </div>
+    </div>
+</body>
